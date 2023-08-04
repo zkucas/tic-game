@@ -1,0 +1,44 @@
+html,body{
+    width: 100%;
+}
+
+.wrapper{
+    display: grid;
+    height: max-content;
+    width: max-content;
+    padding: 30px;
+    grid-template-columns: repeat(3,100px);
+    grid-template-rows: auto;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    border-radius: 1rem;
+    border: 1px solid white;
+
+   
+}
+
+
+.boardGrid{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    width: 10vh;
+    text-align: center;
+    border-radius: 0.5rem;
+    border: 1px solid white;
+    background-color: gray;
+}
+
+.all{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: orange
+}
